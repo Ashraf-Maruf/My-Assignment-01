@@ -1,0 +1,282 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.section-padding{
+    padding: 100px 0px 0px 0px;
+}
+
+.top-text{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.top-text h2{
+    font-size: 45px;
+    color: #121212;
+}
+
+
+/*==== Start Banner Area Css =======*/
+
+.banner-area{
+    background-image: url("images/donation9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.banner-text-h1-color {
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    line-height: 95px;
+}
+
+.banner-text-p-color {
+    color: white;
+    margin-bottom: 35px;
+}
+.banner-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 15px 10px;
+    margin: 0% 40%;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*==== Banner Area Css End =======*/
+
+
+/*==== Start Donate Area Css =======*/
+
+.donate-area{
+    background-color: #FFFFFF;
+}
+.donate-item-area {
+    display: flex;
+    width: 60%;
+    margin: 3% 0% 3% 20%;
+}
+
+.donate-item {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: #FAFAFA;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    color: #707070;
+    padding: 0px 15px;
+}
+
+.donate-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.donate-item.active{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+
+}
+
+.donate-input {
+    width: 50%;
+    margin-left: 25%;
+    border-bottom: 2px solid #DADADA;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.donate-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 15px 10px;
+    margin: 0% 44%;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*==== Donate Area Css End =======*/
+
+
+/*==== Start Our Donate Item Area Css =======*/
+
+.our-donate-item-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.our-donate-item {
+    width: 25%;
+    margin: 15px;
+    padding: 50px 15px 60px 25px;
+    border-radius: 8px;
+}
+.our-donate-item h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.our-donate-item p{
+    color: #707070;
+    text-align: left;
+}
+
+#color01{
+    background-color: rgba(79, 157, 166, 0.10);
+}
+
+#color02{
+    background-color: rgba(255, 89, 89, 0.10);
+}
+
+#color03{
+    background-color: #FFF4D6;
+}
+
+/*==== Our Donate Item Area Css End =======*/
+
+
+/*==== Start Their Lives Area Css =======*/
+
+.their-lives-area{
+    display: flex;
+    justify-content: center;
+}
+
+.their-lives-item {
+    width: 35%;
+    margin: 0px 38px;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 25px 3px rgba(112, 112, 112, 0.5);
+}
+
+.their-lives-img img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.their-text h2 {
+    font-size: 45px;
+    color: #121212;
+}
+.their-text p{
+    margin-bottom: 50px;
+}
+.their-text-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 15px 10px;
+    margin: 0% 25%;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*==== Their Lives Area Css End =======*/
+
+
+/*==== Start Updates Area Css =======*/
+
+.updates-input {
+    width: 60%;
+    background-color: antiquewhite;
+    margin-left: 20%;
+    text-align: center;
+    padding: 80px 0px;
+    margin-top: 40px;
+}
+
+.email {
+    width: 50%;
+    background-color: #D9D9D9;
+    border: transparent;
+    padding: 20px 0px 20px 20px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.input-button {
+    background-color: #FF5959;
+    border: transparent;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    margin: -5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+input:focus-visible {
+    outline: none;
+}
+
+/*==== Updates Area Css End =======*/
+
+
+/*==== Start Footer Area Css =======*/
+
+.footer-area {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    margin-top: 100px;
+}
+
+.footer-text{
+    color: white;
+    text-align: center;
+}
+
+.footer-text h2{
+    color: #FF5959;
+    font-size: 36px;
+}
+
+.footer-text p{
+    font-size: 14px;
+}
+
+/*==== Footer Area Css End =======*/
